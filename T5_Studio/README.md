@@ -4,7 +4,7 @@ Proyecto final del curso **Procesamiento de Datos Secuenciales** (Maestría en I
 
 **Integrantes:** Omar Sánchez Jimenez, Santiago Correa Campaña, Jorge Herrera y Wilson Jesus Riveros  
 **Modelo:** `google-t5/t5-small`  
-**Aplicación Streamlit:** _agregar el enlace después del despliegue_  
+**Aplicación Streamlit:** https://t5studio-kqrgtyrngcufth73ewhoyp.streamlit.app/
 **Artículo base:** *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer*  
 **Repositorio original:** https://github.com/google-research/text-to-text-transfer-transformer
 
@@ -202,8 +202,8 @@ T5-Studio/
 **Aplicación local:**
 
 ```bash
-git clone https://github.com/<usuario>/T5-Studio.git
-cd T5-Studio
+git clone https://github.com/jorgeherrera/t5-studio.git
+cd t5-studio
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -256,6 +256,10 @@ La aplicación permite:
 - revisar la entrada exacta enviada al modelo y descargar la salida.
 
 ![Interfaz principal de T5 Studio](assets/captura_1.png)
+
+![Carga de un archivo .txt y resultado de la inferencia](assets/captura_6.png)
+
+![Mapa de atención cruzada en la traducción EN → DE (bloque 4 del decoder)](assets/captura_7.png)
 
 ### 5.6 Despliegue
 
